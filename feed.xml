@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Safe Telegram</title>
+    <link href="https://partisans-by.github.io/tg/feed.xml" rel="self" />
+    <link href="https://partisans-by.github.io/tg" />
+    <updated>2020-10-19T00:13:12+03:00</updated>
+    <author>
+        <name>Minai</name>
+    </author>
+    <id>https://partisans-by.github.io/tg</id>
+
+    <entry>
+        <title>Общий план по безопасности</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/obshchiy-plan-po-bezopasnosti.html"/>
+        <id>https://partisans-by.github.io/tg/obshchiy-plan-po-bezopasnosti.html</id>
+
+        <updated>2020-10-19T00:13:12+03:00</updated>
+            <summary>
+                <![CDATA[
+                    1. Владельцы и администраторы Telegram групп заводят отдельный аккаунт для этих целей. Если используется личный аккаунт, то установить личность администратора становится значительно проще. 2. Отдельный&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>1. Владельцы и администраторы Telegram групп заводят отдельный аккаунт для этих целей. Если используется личный аккаунт, то установить личность администратора становится значительно проще.</p>
+<p>2. Отдельный аккаунт можно завести на SIM карту оператора, который находится за пределами ЕАЭС. Например, попросить друзей в Польше, Литве, Украине. Еще вариант - воспользоваться виртуальным номером.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Безопасность групп</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/bezopasnost-grupp.html"/>
+        <id>https://partisans-by.github.io/tg/bezopasnost-grupp.html</id>
+
+        <updated>2020-10-18T23:36:22+03:00</updated>
+            <summary>
+                <![CDATA[
+                    1. При создании группы Telegram требует сразу добавить хотя бы одного пользователя. Но! Добавлять кого-либо до завершения настройки параметров безопасности новой группы опасно. Используйте для&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>1. При создании группы Telegram требует сразу добавить хотя бы одного пользователя. Но! Добавлять кого-либо до завершения настройки параметров безопасности новой группы <strong>опасно</strong>. Используйте для этих целей специальный аккаунт-заглушку <em>@partisan_dummy</em>:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr1-2.gif" alt="" width="600" height="410"></figure>
+<p>Сразу после создания удалите этого пользователя из группы.</p>
+<p>2. В настройках группы выбрать "Разрешения" и выставить рекомендуемые параметры:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr3.gif" alt="" width="600" height="903"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr2.gif" alt="" width="600" height="846"></figure>
+<p>3. Добавляем администраторов в группу. И каждого переводим в анонимный режим:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr4.gif" alt="" width="600" height="903"></figure>
+<p>4. Добавить в группу бота @joinhider_bot и дать ему права администратора - удаление сообщений:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr5-2.gif" alt="" width="600" height="1037"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Настройки безопасности личного аккаунта</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/nastroyki-bezopasnosti-lichnogo-akkaunta.html"/>
+        <id>https://partisans-by.github.io/tg/nastroyki-bezopasnosti-lichnogo-akkaunta.html</id>
+
+        <updated>2020-10-18T21:29:35+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Меню -&gt; Настройки -&gt; Конфиденциальность. Безопасная конфигурация выглядит так: Ниже подробно - 8 обязательных шагов: 1. Конфиденциальность -&gt; Номер телефона: 2. Конфиденциальность -&gt; Последняя активность:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Меню -&gt; Настройки -&gt; Конфиденциальность.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf0.gif" alt="" width="231" height="500"></figure>
+<p>Безопасная конфигурация выглядит так:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf1.gif" alt="" width="462" height="1120"></figure>
+<p>Ниже подробно - 8 обязательных шагов:</p>
+<p>1.  Конфиденциальность -&gt; Номер телефона:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf2-3.gif" alt="" width="462" height="831"></figure>
+<p>2. Конфиденциальность -&gt; Последняя активность:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf3.gif" alt="" width="462" height="675"></figure>
+<p>3. Конфиденциальность -&gt; Фотография профиля</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf4.gif" alt="" width="462" height="590"></figure>
+<p>4. Конфиденциальность -&gt; Пересылка сообщений</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf5.gif" alt="" width="462" height="783"></figure>
+<p>5. Конфиденциальность -&gt; Звонки</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf6.gif" alt="" width="462" height="721"></figure>
+<p>6. Конфиденциальность -&gt; Группы</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf7.gif" alt="" width="462" height="617"></figure>
+<p>7. Конфиденциальность -&gt; Двухэтапная аутентификация -&gt; <span style="text-decoration: underline;"><strong>Включить</strong></span></p>
+<p>8. Конфиденциальность -&gt; Синхронизировать контакты -&gt; <span style="text-decoration: underline;"><strong>Выключить</strong></span></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Регистрация на виртуальный номер</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/registraciya-na-virtualnyy-nomer.html"/>
+        <id>https://partisans-by.github.io/tg/registraciya-na-virtualnyy-nomer.html</id>
+
+        <updated>2020-10-18T23:52:45+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Безопасный и анонимный Telegram аккаунт за 5 простых шагов!1. Регистрируемся на SMS-REG (сервис многократно проверен): SMS-REG.com 2. Пополнить баланс: Минимальная сумма - 50 рос. руб&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h3>Безопасный и анонимный Telegram аккаунт за 5 простых шагов!</h3>
+<p>1. Регистрируемся на SMS-REG <em>(сервис многократно проверен)</em>:</p>
+<p><a href="https://sms-reg.com/" target="_blank" rel="noopener noreferrer"></a><a href="https://sms-reg.com/">SMS-REG.com</a></p>
+<p>2. Пополнить баланс:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms1-3.gif" alt="" width="1000" height="323"></figure>
+<p><em>Минимальная сумма - 50 рос. руб (0.65 $). Прием сообщения на виртуальный номер стоит всего 13 центов</em></p>
+<p>3. Нажать зеленую кнопку "SMS" вверху.  Далее справа выбрать: страна (рекомендуем Украина) -&gt; "Telegram" -&gt; "Получить номер"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms2.gif" alt="" width="1000" height="323"></figure>
+<p>4. Через некоторое время отобразится номер. Нажимаем кнопку "Готов". Номер вводим в приложение Telegram и переходим на экран ввода кода из SMS.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms3.gif" alt="" width="1000" height="323"></figure>
+<p>5. На сайте через некоторое время отобразится SMS код:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms4.gif" alt="" width="1000" height="323"></figure>
+<p>Вводим проверочный код в Telegram. Если все ОК - нажимаем "Верно"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms5.gif" alt="" width="1000" height="323"></figure>
+<p>Абсолютно сразу надо <strong>включить "Двухэтапная аутентификация"</strong>, иначе аккаунт могут увести.</p>
+<hr>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
