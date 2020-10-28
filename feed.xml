@@ -3,12 +3,281 @@
     <title>Safe Telegram</title>
     <link href="https://partisans-by.github.io/tg/feed.xml" rel="self" />
     <link href="https://partisans-by.github.io/tg" />
-    <updated>2020-10-19T00:13:12+03:00</updated>
+    <updated>2020-10-27T12:25:14+03:00</updated>
     <author>
         <name>Minai</name>
     </author>
     <id>https://partisans-by.github.io/tg</id>
 
+    <entry>
+        <title>Полное удаление файлов с компьютера</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/polnoe-udalenie-faylov-s-kompyutera.html"/>
+        <id>https://partisans-by.github.io/tg/polnoe-udalenie-faylov-s-kompyutera.html</id>
+
+        <updated>2020-10-27T01:38:11+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Стандартными способами невозможно полностью уничтожить факт присутствия определенного файла на компьютере. Для этого используйте программу Freeraser или файл wipe.bat после завершения работы с VeraCrypt:
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Стандартными способами <em><span style="text-decoration: underline;">невозможно</span></em> полностью уничтожить факт присутствия определенного файла на компьютере. Для этого используйте программу Freeraser или файл wipe.bat после завершения работы с VeraCrypt:</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Программа VeraCrypt</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/programma-veracrypt.html"/>
+        <id>https://partisans-by.github.io/tg/programma-veracrypt.html</id>
+
+        <updated>2020-10-27T00:53:07+03:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Защита доступа в Интернет</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/zashchita-dostupa-v-internet.html"/>
+        <id>https://partisans-by.github.io/tg/zashchita-dostupa-v-internet.html</id>
+
+        <updated>2020-10-27T12:25:14+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Почему мой доступ в сеть надо ещё дополнительно защищать? Разве "замочек" в строке браузера не гарантирует полную конфиденциальность? Нет. Технологий интернета заточены на обмен открытой&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="msg msg--info">Почему мой доступ в сеть надо ещё дополнительно защищать? Разве "замочек" в строке браузера не гарантирует полную конфиденциальность?</p>
+<p><span style="text-decoration: underline;"><strong>Нет.</strong></span> Технологий интернета заточены на обмен открытой информации. Да, есть протокол HTTPS - тот самый замочек в адресной строке - но он лишь гарантирует, что третьи лица не получили доступ к <em><span style="text-decoration: underline;">содержимому</span></em> передаваемых данных.</p>
+<p>А вот факт того, что вы определенную информацию <em><span style="text-decoration: underline;">скачивали</span></em>, увы, обычные браузеры скрыть не в состоянии:</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Защита методом &quot;двойного дна&quot;</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/zashchita-metodom-dvoynogo-dna.html"/>
+        <id>https://partisans-by.github.io/tg/zashchita-metodom-dvoynogo-dna.html</id>
+
+        <updated>2020-10-27T01:12:28+03:00</updated>
+            <summary>
+                <![CDATA[
+                    В таких странах, как РБ, где не соблюдаются даже минимальные человеческие права, а по отношению к задержанным возможны пытки и "выбивание" паролей, эффективным методом защиты&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>В таких странах, как РБ, где не соблюдаются даже минимальные человеческие права, а по отношению к задержанным возможны пытки и "выбивание" паролей, эффективным методом защиты информации признано "двойное дно".</p>
+<p>Его суть: наличие сразу двух паролей. Один - "фальшивый", который, посопротивлявшись в меру сил, можно все таки и выдать дознавателям. Введя его, они действительно получат доступ к зашифрованному диску, где будет хранится "секретные" файлы. Это будет специально подготовленная "кукла" - какие-то личные или семейные "секретики", которые человек действительно мог захотеть и зашифровать от семьи или коллег по работе. </p>
+<p>Второй пароль - "настоящий" - позволяет комфортно работать с программами и файлами за компьютером, пока не начали взламывать дверь.</p>
+<p>Зная "фальшивый" пароль, установить, что имеется еще какая-то информация на диске, технически <span style="text-decoration: underline;">невозможно</span>.</p>
+<p>Этот метод реализован в программах TrueCrypt и VeraCrypt.</p>
+<p>Хранить секретную информацию с "двойным дном" можно двумя способами:</p>
+<ol>
+<li>В виде отдельного файла на компьютере. <span style="text-decoration: underline;">Преимущества:</span> работает быстро, объем может быть очень большой. <span style="text-decoration: underline;">Недостатки:</span> проще установить факт наличия зашифрованных данных.</li>
+<li>На USB диске (флэшке). <span style="text-decoration: underline;">Преимущества:</span> можно быстро спрятать, а если опасность миновала - продолжить работу. <span style="text-decoration: underline;">Недостатки:</span> работает медленнее, объем ограничен размером флэшки, половина из которой еще и уйдет на "фальшивый" диск.</li>
+</ol>
+<p>План по <span style="text-decoration: underline;">созданию</span> нового защищенного диска методом "двойного дна" на примере VeraCrypt (щелкните на ссылке, чтобы получить подробные инструкции):</p>
+<ol>
+<li><strong>Важно!</strong> Перевести подключение к интернет в <a href="https://partisans-by.github.io/tg/zashchita-dostupa-v-internet.html">защищенный режим</a></li>
+<li>Скачать и распаковать <a href="https://partisans-by.github.io/tg/programma-veracrypt.html">VeraCrypt Portable</a></li>
+<li>Создать <a href="https://partisans-by.github.io/tg/zashchita-dannyh-na-diske.html">шифрованный файл</a> или <a href="https://partisans-by.github.io/tg/zashchita-dannyh-na-diske-2.html">USB флэш диск</a> <em>(на выбор)</em></li>
+<li>Удалить <a href="https://partisans-by.github.io/tg/polnoe-udalenie-faylov-s-kompyutera.html">полностью </a>программу VeraCrypt с компьютера</li>
+</ol>
+<p>План по <span style="text-decoration: underline;">использованию</span> созданного диска:</p>
+<ol>
+<li><strong>Важно!</strong> Перевести подключение к интернет в <a href="https://partisans-by.github.io/tg/zashchita-dostupa-v-internet.html">защищенный режим</a></li>
+<li>Скачать и распаковать <a href="https://partisans-by.github.io/tg/programma-veracrypt.html">VeraCrypt Portable</a></li>
+<li>Смонтировать <a href="https://partisans-by.github.io/tg/zashchita-dannyh-na-diske.html">шифрованный файл</a> <em>или</em> <a href="https://partisans-by.github.io/tg/zashchita-dannyh-na-diske-2.html">USB флэш диск</a><br>.......................</li>
+<li>Работать с информацией<br>.......................</li>
+<li>Размонтировать диск</li>
+<li>Удалить <a href="https://partisans-by.github.io/tg/polnoe-udalenie-faylov-s-kompyutera.html">полностью </a>программу VeraCrypt с компьютера</li>
+</ol>
+<p><code>p.s. Вариант каждый раз скачивать и удалять VeraCrypt может показаться сложноватым, но это оберегает от процедуры "вытягивания" из вас пароля...</code></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Защита данных на USB флэшке</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/zashchita-dannyh-na-diske-2.html"/>
+        <id>https://partisans-by.github.io/tg/zashchita-dannyh-na-diske-2.html</id>
+
+        <updated>2020-10-27T00:10:10+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Внимание! Вся предыдущая информация на USB флэшке будет стёрта! Сперва скопируйте в надежное место, если на ней есть что-то ценное. 1. Запустить VeraCrypt, затем нажать&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Внимание!</strong> Вся предыдущая информация на USB флэшке будет стёрта! Сперва скопируйте в надежное место, если на ней есть что-то ценное.</p>
+<p>1. Запустить VeraCrypt, затем нажать кнопку "Создать том":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-003.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-003-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-003-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-003-md.png 749w"  alt="" width="1410" height="1233"></figure>
+<p>2. Выбрать "Зашифровать несистемный раздел/диск" -&gt; Нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-004.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-004-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-004-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-004-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>3. Выбрать "Скрытый том VeraCrypt" -&gt; Нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-037.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-037-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-037-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-037-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>4. Выбрать "Обычный режим" -&gt; Нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-038.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-038-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-038-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-038-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>5. Внимательно выберите свою флэшку в разделе "Сменный диск":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-007.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-007-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-007-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-007-md.png 749w"  alt="" width="1148" height="923"></figure>
+<p>После нажать "Далее".</p>
+<p>6. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-040.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-040-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-040-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-040-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>7. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-041.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-041-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-041-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-041-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>8. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-010.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-010-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-010-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-010-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>9. Выбрать пароль для "фальшивого" диска. Этот пароль надо знать наизусть. Можно что-то простое, главное - не забыть. Именно этот пароль можно будет сообщить дознавателям под прессингом. Он их приведет к фальшивому диску.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-043.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-043-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-043-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-043-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Нажать "Далее".</p>
+<p>10. Выбрать "Нет" -&gt; нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-044.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-044-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-044-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-044-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>11. Гоняем курсор по экрану, пока полоска не станет зеленой -&gt; Нажать "Разметить" -&gt; Ожидаем...</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-046.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-046-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-046-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-046-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Подтверждаем, что ничего ценного не оставили на флэшке:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-014.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-014-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-014-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-014-md.png 749w"  alt="" width="1052" height="531"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-015.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-015-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-015-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-015-md.png 749w"  alt="" width="1023" height="673"></figure>
+<p>12. Нажать "Открыть внешний том":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6//Image-047.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6//responsive/Image-047-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-047-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6//responsive/Image-047-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>13. <strong>Важно!</strong> В открывшуюся папочку копируем "фальшивые" секретные файлы. Под это дело хорошо пойдут тематические подборки книг, курсов, фильмов по "околозапретным" или "стыдливым" темам, например:</p>
+<ul>
+<li>секс, в том числе нетрадиционный,</li>
+<li>всякая нестандартная религия, магия</li>
+<li>"стремные" заболеваниям (психопатия, венерические)</li>
+<li>лечение алкоголизма, игромании</li>
+<li>фотоальбом секретного отпуска с любовником/любовницей</li>
+</ul>
+<p>То есть, любая информация, которую обычный человек захотел бы спрятать от посторонних глаз. Импровизируйте! Торрент поможет.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-048-2.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-048-2-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-048-2-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-048-2-md.png 749w"  alt="" width="1219" height="297"></figure>
+<p>14. Вернуться в VeraCrypt и нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-049.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-049-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-049-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-049-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>15. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-050.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-050-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-050-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-050-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>16. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-020.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-020-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-020-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-020-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>17. Указать примерно на 20% меньше, чем максимальный размер тома:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-021.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-021-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-021-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-021-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Нажать "Далее"</p>
+<p>18. <strong>Важно!</strong> Выбрать настоящий секретный пароль. Правила:</p>
+<ol style="list-style-type: upper-alpha;">
+<li>Этот пароль надо знать наизусть. </li>
+<li>Он должен <strong>в корне</strong> отличаться от <em><span style="text-decoration: underline;">всех</span></em> других ваших паролей, в том числе от пароля компьютера и "фальшивого" пароля. Дознаватели используют специальные программы, которые по образцу других ваших паролей (от электронной почты, компьютера, соц. сетей) сгенерируют базу для подбора. </li>
+<li>Длина пароля - не менее 20 символов.</li>
+</ol>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-052.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-052-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-052-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-052-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Нажать "Далее"</p>
+<p>19. Обычно выбирают "Нет". Можно "Да", если <span style="text-decoration: underline;"><em>действительно</em></span> будут секретные  файлы больше 4 ГБ. Нажать "Далее".</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-054.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-054-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-054-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-054-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>20. Гоняем курсор по экрану, пока полоска не станет зеленой -&gt; Нажать "Разметить" -&gt; Ожидаем...</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-055.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-055-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-055-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-055-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>21. Нажать "ОК":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-025.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-025-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-025-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-025-md.png 749w"  alt="" width="1104" height="1051"></figure>
+<p>Еще раз нажать "ОК":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-056.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-056-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-056-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-056-md.png 749w"  alt="" width="1108" height="851"></figure>
+<p>22. Нажать "Выход":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/6/Image-027.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/6/responsive/Image-027-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-027-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/6/responsive/Image-027-md.png 749w"  alt="" width="1692" height="1092"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Защита данных на диске</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/zashchita-dannyh-na-diske.html"/>
+        <id>https://partisans-by.github.io/tg/zashchita-dannyh-na-diske.html</id>
+
+        <updated>2020-10-26T23:57:54+03:00</updated>
+            <summary>
+                <![CDATA[
+                    1. Запустить VeraCrypt, затем нажать кнопку "Создать том": 2. Выбрать "Создать зашифрованный файловый контейнер" -&gt; Нажать "Далее" 3. Выбрать "Скрытый том VeraCrypt" -&gt; Нажать "Далее"&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>1. Запустить VeraCrypt, затем нажать кнопку "Создать том":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-003.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-003-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-003-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-003-md.png 749w"  alt="" width="1410" height="1233"></figure>
+<p>2. Выбрать "Создать зашифрованный файловый контейнер" -&gt; Нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-036.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-036-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-036-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-036-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>3. Выбрать "Скрытый том VeraCrypt" -&gt; Нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-037.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-037-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-037-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-037-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>4. Выбрать "Обычный режим" -&gt; Нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-038.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-038-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-038-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-038-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>5. <strong>Важно!</strong> Выбрать место, где будет размещен файл с шифрованными данными нажатием на кнопку "Выбрать файл". Лучше всего для этого подходит папка со скаченными с торрента фильмами, или образами операционных систем. Желательно, что бы их там было несколько десятков, в том числе десяток скаченных<em> </em><span style="text-decoration: underline;"><em>частично</em>,</span> а не полностью (~3%).</p>
+<p>Имя файла должно быть похоже на другие файлы из этой папки. </p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-039.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-039-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-039-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-039-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>От тщательности проработки этого пункта зависит ваша свобода! Не спешите, уделите достаточно времени, внимания и фантазии.</p>
+<p>После нажать "Далее".</p>
+<p>6. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-040.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-040-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-040-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-040-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>7. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-041.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-041-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-041-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-041-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>8. Определить размер шифрованного диска = в два раза больше, чем примерный объем секретных файлов. Размер должен примерно соответствовать другим файлам в папке из пункта 5. Если не знаете - ставим 16 ГБ.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-042.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-042-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-042-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-042-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>9. Выбрать пароль для "фальшивого" диска. Этот пароль надо знать наизусть. Можно что-то простое, главное - не забыть. Именно этот пароль можно будет сообщить дознавателям под прессингом. Он их приведет к фальшивому диску.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-043.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-043-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-043-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-043-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Нажать "Далее".</p>
+<p>10. Выбрать "Нет" -&gt; нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-044.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-044-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-044-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-044-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>11. Гоняем курсор по экрану, пока полоска не станет зеленой -&gt; Нажать "Разметить" -&gt; Ожидаем...</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-046.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-046-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-046-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-046-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>12. Нажать "Открыть внешний том":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5//Image-047.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5//responsive/Image-047-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-047-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5//responsive/Image-047-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>13. <strong>Важно!</strong> В открывшуюся папочку копируем "фальшивые" секретные файлы. Под это дело хорошо пойдут тематические подборки книг, курсов, фильмов по "околозапретным" или "стыдливым" темам, например:</p>
+<ul>
+<li>секс, в том числе нетрадиционный,</li>
+<li>всякая нестандартная религия, магия</li>
+<li>"стремные" заболеваниям (психопатия, венерические)</li>
+<li>лечение алкоголизма, игромании</li>
+<li>фотоальбом секретного отпуска с любовником/любовницей</li>
+</ul>
+<p>То есть, любая информация, которую обычный человек захотел бы спрятать от посторонних глаз. Импровизируйте! Торрент поможет.</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-048-2.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-048-2-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-048-2-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-048-2-md.png 749w"  alt="" width="1219" height="297"></figure>
+<p>14. Вернуться в VeraCrypt и нажать "Далее"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-049.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-049-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-049-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-049-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>15. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-050.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-050-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-050-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-050-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>16. Просто нажать "Далее":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-020.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-020-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-020-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-020-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>17. Указать примерно на 20% меньше, чем максимальный размер тома:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-021.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-021-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-021-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-021-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Нажать "Далее"</p>
+<p>18. <strong>Важно!</strong> Выбрать настоящий секретный пароль. Правила:</p>
+<ol style="list-style-type: upper-alpha;">
+<li>Этот пароль надо знать наизусть. </li>
+<li>Он должен <strong>в корне</strong> отличаться от <em><span style="text-decoration: underline;">всех</span></em> других ваших паролей, в том числе от пароля компьютера и "фальшивого" пароля. Дознаватели используют специальные программы, которые по образцу других ваших паролей (от электронной почты, компьютера, соц. сетей) сгенерируют базу для подбора. </li>
+<li>Длина пароля - не менее 20 символов.</li>
+</ol>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-052.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-052-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-052-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-052-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>Нажать "Далее"</p>
+<p>19. Обычно выбирают "Нет". Можно "Да", если действительно будут секретные  файлы больше 4 ГБ. Нажать "Далее".</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-054.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-054-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-054-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-054-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>20. Гоняем курсор по экрану, пока полоска не станет зеленой -&gt; Нажать "Разметить" -&gt; Ожидаем...</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-055.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-055-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-055-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-055-md.png 749w"  alt="" width="1692" height="1092"></figure>
+<p>21. Нажать "ОК":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-056.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-056-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-056-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-056-md.png 749w"  alt="" width="1108" height="851"></figure>
+<p>22. Нажать "Выход":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/5/Image-027.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/5/responsive/Image-027-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-027-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/5/responsive/Image-027-md.png 749w"  alt="" width="1692" height="1092"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Общий план по безопасности</title>
         <author>
