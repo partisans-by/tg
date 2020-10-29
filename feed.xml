@@ -1,14 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Safe Telegram</title>
+    <title>Защита 97%</title>
     <link href="https://partisans-by.github.io/tg/feed.xml" rel="self" />
     <link href="https://partisans-by.github.io/tg" />
-    <updated>2020-10-27T12:25:14+03:00</updated>
+    <updated>2020-10-29T16:05:33+03:00</updated>
     <author>
         <name>Minai</name>
     </author>
     <id>https://partisans-by.github.io/tg</id>
 
+    <entry>
+        <title>Настройка интернет через VPN</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/nastroyka-internet-cherez-vpn.html"/>
+        <id>https://partisans-by.github.io/tg/nastroyka-internet-cherez-vpn.html</id>
+
+        <updated>2020-10-29T15:54:46+03:00</updated>
+            <summary>
+                <![CDATA[
+                    1. Бесплатные сервисы, проверены на работоспособность в Беларуси. Рекомендуется настроить сразу все - на случай блокировки одного из них: 2. Рекомендуемые платные VPN: Важно! Проверка&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>1. Бесплатные сервисы, проверены на работоспособность в Беларуси. Рекомендуется настроить сразу все - на случай блокировки одного из них:</p>
+<ul>
+<li><a href="https://www.psiphon3.com/ru/download.html" target="_blank" rel="noopener noreferrer">Psiphon</a></li>
+<li><a href="https://getlantern.org/ru_RU/index.html" target="_blank" rel="noopener noreferrer">Lantern</a></li>
+<li><a href="https://protonvpn.com/ru/" target="_blank" rel="noopener noreferrer">ProtonVPN</a></li>
+<li><a href="https://tachyon.eco/?n=yr8mtzfwee.Download" target="_blank" rel="noopener noreferrer">Tachyon VPN</a> <em>(сложнее в настройке, нет Windows версии)</em></li>
+<li>NewNode <em>(пока только <a href="https://play.google.com/store/apps/details?id=com.clostra.newnode.vpn" target="_blank" rel="noopener noreferrer">Android 10</a> и <a href="https://apps.apple.com/us/app/newnode-vpn/id1473074621" target="_blank" rel="noopener noreferrer">iOS</a>)</em></li>
+</ul>
+<p>2. Рекомендуемые платные VPN:</p>
+<ul>
+<li><a href="https://www.ovpn.com/en" target="_blank" rel="noopener noreferrer">OVPN</a> - от 5$ в месяц, лучше с опцией Multihop</li>
+<li><a href="https://getoutline.org/ru/home" target="_blank" rel="noopener noreferrer">Outline</a> - помогает создавать частные VPN сервера</li>
+</ul>
+<p><strong>Важно!</strong> Проверка правильности настройки VPN: <a href="https://dnsleaktest.com/" target="_blank" rel="noopener noreferrer">DNS Leak Test</a></p>
+<p>Смотрим на флаг:</p>
+<ul>
+<li>красно-зеленый "закат над болотом" - признак проблем, соединение не защищено, требуется проверить настройки VPN (включен ли?) или браузера:</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/12/Image-079.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/12/responsive/Image-079-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-079-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-079-md.png 749w"  alt="" width="600" height="370"></figure>
+<ul>
+<li>любые другие - интернет идет через VPN, нажимаем кнопку "Extended test":</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/12/Image-081.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/12/responsive/Image-081-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-081-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-081-md.png 749w"  alt="" width="600" height="280"></figure>
+<p>Если вылезли недемократические флаги - <a href="https://1.1.1.1" target="_blank" rel="noopener noreferrer">настроить DNS</a> и переделать тест:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/12/Image-080.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/12/responsive/Image-080-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-080-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-080-md.png 749w"  alt="" width="600" height="235"></figure>
+<p>Если все ок, на результатах теста нигде не должно быть упоминания РБ:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/12/Image-082.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/12/responsive/Image-082-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-082-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/12/responsive/Image-082-md.png 749w"  alt="" width="600" height="194"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Настройка интернет через Tor</title>
+        <author>
+            <name>Minai</name>
+        </author>
+        <link href="https://partisans-by.github.io/tg/nastroyka-internet-cherez-tor.html"/>
+        <id>https://partisans-by.github.io/tg/nastroyka-internet-cherez-tor.html</id>
+
+        <updated>2020-10-29T14:17:49+03:00</updated>
+            <summary>
+                <![CDATA[
+                    В настоящий момент, для использования сети Tor в РБ, необходимо настроить подключение через так называемые "мосты" Tor сети: 1. Скачать Tor Browser: 2. Запустить скачанный&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>В настоящий момент, для использования сети Tor в РБ, необходимо настроить подключение через так называемые "мосты" Tor сети:</p>
+<p>1. Скачать Tor Browser: </p>
+<p>2. Запустить скачанный файл. Выбрать язык, нажать "Установить"</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-071-2.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-071-2-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-071-2-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-071-2-md.png 749w"  alt="" width="300" height="161"></figure><figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-072.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-072-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-072-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-072-md.png 749w"  alt="" width="386" height="300"></figure>
+<p>Нажать "Готово", на рабочем столе появится папка и ярлык для запуска:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-077-2.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-077-2-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-077-2-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-077-2-md.png 749w"  alt="" width="300" height="197"></figure><figure class="post__image"><img loading="lazy"  style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);" src="https://partisans-by.github.io/tg/media/posts/11/Image-073.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-073-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-073-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-073-md.png 749w"  alt="" width="386" height="300"></figure>
+<p>3. Запустить Start Tor Browser. Нажать "Настроить":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-074-3.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-074-3-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-074-3-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-074-3-md.png 749w"  alt="" width="1525" height="779"></figure>
+<p>4. Выбрать "Tor заблокирован в моей стране" -&gt; "Запросить мост у torproject.org".</p>
+<p>Нажать "Запрос моста..." :</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-065.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-065-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-065-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-065-md.png 749w"  alt="" width="1525" height="1394"></figure>
+<p>5. Ввести цифры с картинки, нажать "ОК":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-068.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-068-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-068-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-068-md.png 749w"  alt="" width="1525" height="1394"></figure>
+<p>6. Пропишутся мосты. Нажать "Соединиться":</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-069.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-069-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-069-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-069-md.png 749w"  alt="" width="1525" height="1394"></figure>
+<p>7. Ожидаем подключение к сети и потом пользуемся, как обычным браузером:</p>
+<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/11/Image-075.png" sizes="(max-width: 749px) 100vw, 749px" srcset="https://partisans-by.github.io/tg/media/posts/11/responsive/Image-075-xs.png 300w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-075-sm.png 480w ,https://partisans-by.github.io/tg/media/posts/11/responsive/Image-075-md.png 749w"  alt="" width="1525" height="1394"></figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Полное удаление файлов с компьютера</title>
         <author>
@@ -49,15 +132,16 @@
         <link href="https://partisans-by.github.io/tg/zashchita-dostupa-v-internet.html"/>
         <id>https://partisans-by.github.io/tg/zashchita-dostupa-v-internet.html</id>
 
-        <updated>2020-10-27T12:25:14+03:00</updated>
+        <updated>2020-10-29T16:05:33+03:00</updated>
             <summary>
                 <![CDATA[
-                    Почему мой доступ в сеть надо ещё дополнительно защищать? Разве "замочек" в строке браузера не гарантирует полную конфиденциальность? Нет. Технологий интернета заточены на обмен открытой&hellip;
+                    Лучше медленный интернет, чем быстрый арест Почему мой доступ в сеть надо ещё дополнительно защищать? Разве "замочек" в строке браузера не гарантирует полную конфиденциальность? Нет.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p class="msg msg--info">Почему мой доступ в сеть надо ещё дополнительно защищать? Разве "замочек" в строке браузера не гарантирует полную конфиденциальность?</p>
+                <p class="msg msg--warning">Лучше медленный интернет, чем быстрый арест</p>
+<p>Почему мой доступ в сеть надо ещё дополнительно защищать? Разве "замочек" в строке браузера не гарантирует полную конфиденциальность?</p>
 <p><span style="text-decoration: underline;"><strong>Нет.</strong></span> Технологий интернета заточены на обмен открытой информации. Да, есть протокол HTTPS - тот самый замочек в адресной строке - но он лишь гарантирует, что третьи лица не получили доступ к <em><span style="text-decoration: underline;">содержимому</span></em> передаваемых данных.</p>
 <p>А вот факт того, что вы определенную информацию <em><span style="text-decoration: underline;">скачивали</span></em>, увы, обычные браузеры скрыть не в состоянии:</p>
 <p> </p>
@@ -325,80 +409,6 @@
 <figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr4.gif" alt="" width="600" height="903"></figure>
 <p>4. Добавить в группу бота @joinhider_bot и дать ему права администратора - удаление сообщений:</p>
 <figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/3/gr5-2.gif" alt="" width="600" height="1037"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Настройки безопасности личного аккаунта</title>
-        <author>
-            <name>Minai</name>
-        </author>
-        <link href="https://partisans-by.github.io/tg/nastroyki-bezopasnosti-lichnogo-akkaunta.html"/>
-        <id>https://partisans-by.github.io/tg/nastroyki-bezopasnosti-lichnogo-akkaunta.html</id>
-
-        <updated>2020-10-18T21:29:35+03:00</updated>
-            <summary>
-                <![CDATA[
-                    Меню -&gt; Настройки -&gt; Конфиденциальность. Безопасная конфигурация выглядит так: Ниже подробно - 8 обязательных шагов: 1. Конфиденциальность -&gt; Номер телефона: 2. Конфиденциальность -&gt; Последняя активность:&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Меню -&gt; Настройки -&gt; Конфиденциальность.</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf0.gif" alt="" width="231" height="500"></figure>
-<p>Безопасная конфигурация выглядит так:</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf1.gif" alt="" width="462" height="1120"></figure>
-<p>Ниже подробно - 8 обязательных шагов:</p>
-<p>1.  Конфиденциальность -&gt; Номер телефона:</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf2-3.gif" alt="" width="462" height="831"></figure>
-<p>2. Конфиденциальность -&gt; Последняя активность:</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf3.gif" alt="" width="462" height="675"></figure>
-<p>3. Конфиденциальность -&gt; Фотография профиля</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf4.gif" alt="" width="462" height="590"></figure>
-<p>4. Конфиденциальность -&gt; Пересылка сообщений</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf5.gif" alt="" width="462" height="783"></figure>
-<p>5. Конфиденциальность -&gt; Звонки</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf6.gif" alt="" width="462" height="721"></figure>
-<p>6. Конфиденциальность -&gt; Группы</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/2/conf7.gif" alt="" width="462" height="617"></figure>
-<p>7. Конфиденциальность -&gt; Двухэтапная аутентификация -&gt; <span style="text-decoration: underline;"><strong>Включить</strong></span></p>
-<p>8. Конфиденциальность -&gt; Синхронизировать контакты -&gt; <span style="text-decoration: underline;"><strong>Выключить</strong></span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Регистрация на виртуальный номер</title>
-        <author>
-            <name>Minai</name>
-        </author>
-        <link href="https://partisans-by.github.io/tg/registraciya-na-virtualnyy-nomer.html"/>
-        <id>https://partisans-by.github.io/tg/registraciya-na-virtualnyy-nomer.html</id>
-
-        <updated>2020-10-18T23:52:45+03:00</updated>
-            <summary>
-                <![CDATA[
-                    Безопасный и анонимный Telegram аккаунт за 5 простых шагов!1. Регистрируемся на SMS-REG (сервис многократно проверен): SMS-REG.com 2. Пополнить баланс: Минимальная сумма - 50 рос. руб&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h3>Безопасный и анонимный Telegram аккаунт за 5 простых шагов!</h3>
-<p>1. Регистрируемся на SMS-REG <em>(сервис многократно проверен)</em>:</p>
-<p><a href="https://sms-reg.com/" target="_blank" rel="noopener noreferrer"></a><a href="https://sms-reg.com/">SMS-REG.com</a></p>
-<p>2. Пополнить баланс:</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms1-3.gif" alt="" width="1000" height="323"></figure>
-<p><em>Минимальная сумма - 50 рос. руб (0.65 $). Прием сообщения на виртуальный номер стоит всего 13 центов</em></p>
-<p>3. Нажать зеленую кнопку "SMS" вверху.  Далее справа выбрать: страна (рекомендуем Украина) -&gt; "Telegram" -&gt; "Получить номер"</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms2.gif" alt="" width="1000" height="323"></figure>
-<p>4. Через некоторое время отобразится номер. Нажимаем кнопку "Готов". Номер вводим в приложение Telegram и переходим на экран ввода кода из SMS.</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms3.gif" alt="" width="1000" height="323"></figure>
-<p>5. На сайте через некоторое время отобразится SMS код:</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms4.gif" alt="" width="1000" height="323"></figure>
-<p>Вводим проверочный код в Telegram. Если все ОК - нажимаем "Верно"</p>
-<figure class="post__image"><img loading="lazy"  src="https://partisans-by.github.io/tg/media/posts/1/sms5.gif" alt="" width="1000" height="323"></figure>
-<p>Абсолютно сразу надо <strong>включить "Двухэтапная аутентификация"</strong>, иначе аккаунт могут увести.</p>
-<hr>
-<p> </p>
             ]]>
         </content>
     </entry>
